@@ -4,6 +4,7 @@
 :root {
   --default-font: 'Poppins', sans-serif;
   --primary-color: #2374EE;
+  --hero-bg-color: #EBF2FF;
 }
 
 * {
@@ -38,7 +39,16 @@ button{
   border: none;
   padding: 1rem 2rem; 
 }
+
 .blue{
   background: var(--primary-color);
   color: white;
+}
+
+/* Hero Styles */
+.hero__top{
+  background-color: var(--hero-bg-color);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5rem;
 }
